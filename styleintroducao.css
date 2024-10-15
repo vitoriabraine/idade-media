@@ -1,0 +1,172 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #d5af88;
+}
+
+header { 
+    display: flex; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #e3b98e;
+    box-shadow: 2px 0 5px rgb(72, 46, 1); 
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 16px;
+    justify-content: space-between; 
+}
+
+header .logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.header-text {
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+.main-container {
+    display: flex;
+    align-items: center; 
+    padding: 20px;
+}
+
+.menu {
+    flex: 1; 
+    padding: 20px;
+    box-shadow: 2px 0 5px rgb(72, 46, 1);
+    color: white; 
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+.menu a {
+    color: black; 
+    text-decoration: none; 
+}
+
+.menu a:hover {
+    color: rgb(255, 247, 171); 
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.header .icon {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.content {
+    position: relative;
+}
+
+.helmets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.helmet {
+    width: 150px;
+}
+
+.middle-title {
+    font-size: 2.5em;
+    color: #4b2e19;
+    margin: 0 20px;
+    white-space: nowrap;
+}
+
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .info div {
+            width: 30%;
+        }
+
+        .division {
+            margin: 20px 0;
+            font-size: 24px;
+        }
+
+        .sections {
+            display: flex;
+            justify-content: space-around; 
+            text-align: center; 
+        }
+        
+        .sections div {
+            width: 45%;
+        }
+        
+        .sections ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center; 
+        }
+        
+        .sections ul li {
+            margin-bottom: 10px;
+        }
+        
+
+        .sword {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .footer div {
+            width: 45%;
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: #d7a573;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .footer-content {
+            margin: 0;
+        }
+        
+        .footer-link {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            display: inline-block;
+        }
+        
+        .footer-link i {
+            color: white;
+            margin-right: 5px;
+        }
